@@ -1,0 +1,47 @@
+[ 
+    {
+        "data": {
+            "id": "math",
+            "url": "https://theory-of-everything.netlify.app/docs/toe/math.html",
+            "label": "수학"
+        }
+    },
+    {
+        "data": {
+            "id": "physics",
+            "url": "https://theory-of-everything.netlify.app/docs/toe/physics.html",
+            "label": "물리학"
+        }
+    },
+    {
+        "data": {
+            "id": "biology",
+            "url": "https://theory-of-everything.netlify.app/docs/toe/biology.html",
+            "label": "생물학"
+        }
+    },
+    {
+        "data": {
+            "id": "chemistry",
+            "url": "https://theory-of-everything.netlify.app/docs/toe/chemistry.html",
+            "label": "화학"
+        }
+    },
+    {
+        "data": {
+            "id": "astronomy",
+            "url": "https://theory-of-everything.netlify.app/docs/toe/astronomy.html",
+            "label": "천문학"
+        }
+    },
+    {
+        "data": { "id": "math-physics", "source": "physics", "target": "math" }
+    },
+    {
+        "data": { "id": "physics-astronomy", "source": "astronomy", "target": "physics" }
+    },
+    {
+        "data": { "id": "chemistry-biology", "source": "biology", "target": "chemistry" }
+    }
+    
+]
